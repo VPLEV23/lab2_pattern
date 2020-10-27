@@ -29,7 +29,7 @@ class Singleton {
             for (let item in this.UrlList)
                 console.log(`Url: ${item}, кількість кліків: ${this.UrlList[item]}`)
         }
-        else console.log("Url history is empty!")
+        else console.log("Url історія пуста!")
     }
 
 }
